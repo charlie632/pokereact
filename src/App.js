@@ -6,7 +6,6 @@ import PokeHooks from "./PokeHooks";
 export default function App() {
   return (
     <div className="App">
-      <p>Instructions in README.md</p>
       <h1>Kewl Pokèdex</h1>
       <div className="pokedex">
         <div className="class-pokedex">
