@@ -48,6 +48,25 @@ export default function App() {
 
 _Note: You need to create `PokeClasses` and `PokeHooks`. You decide if you want it in another file or in the same file. Whatevs._
 
+## Routing
+
+Now, each pokemon should be a link to display the pokemon iformation in its own page. The page should display:
+
+1. Name
+2. Type (s)
+3. Picture
+4. Whatever
+
+Try creating a page in hooks and a page with classes.
+
+For hooks, use `/pokemon/h/:name`
+
+For classes, use `/pokemon/c/:name`
+
+Refactor the `App.js` to contain a Router, a Switch, and a component that lists the first 20 pokemons and each time you click on a pokemon, it redirects you to the pokemon page.
+
+_note_: You can use one of the components previously created (PokeClasses or Pokehooks), whichever you like.
+
 ## Note
 
 Please, fork the Sandbox and submit its URL somewhere. Maybe in the slack channel.
