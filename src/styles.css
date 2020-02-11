@@ -1,0 +1,24 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.pokedex {
+  display: flex;
+}
+
+.class-pokedex {
+  width: 50%;
+  padding: 20px;
+  border: 2px solid pink;
+}
+
+.hooks-pokedex {
+  width: 50%;
+  padding: 20px;
+  border: 2px solid blue;
+}
