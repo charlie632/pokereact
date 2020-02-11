@@ -11,8 +11,8 @@ export default function App() {
         <p>Instructions in README.md</p>
         <h1>Kewl Pokèdex</h1>
         <div className="pokedex">
-          {/* <WithoutRouter /> */}
-          <WithRouter />
+          <WithoutRouter />
+          {/* <WithRouter /> */}
         </div>
       </div>
     </BrowserRouter>
