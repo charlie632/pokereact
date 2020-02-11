@@ -9,6 +9,9 @@
 
 .pokedex {
   display: flex;
+  width: 100%;
+  justify-items: center;
+  justify-content: center;
 }
 
 .class-pokedex {
