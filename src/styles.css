@@ -12,6 +12,7 @@
   width: 100%;
   justify-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .class-pokedex {

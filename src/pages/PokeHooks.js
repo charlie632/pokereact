@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function PokeHook() {
   const [pokemons, setPokemons] = useState([]);
@@ -39,8 +40,10 @@ function PokeHook() {
 
   return pokemons.map((pokemon, i) => (
     <div key={i} className="card">
-      <img src={pokemon.img} alt="" />
-      <p>{pokemon.name}</p>
+      <Link to={`/pokemon/${pokemon.name}`}>
+        <img src={pokemon.img} alt="" />
+        <p>{pokemon.name}</p>
+      </Link>
     </div>
   ));
 }
